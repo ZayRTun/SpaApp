@@ -43,7 +43,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     </form>
 
     <!-- Right navbar links -->
-    
+
   </nav>
   <!-- /.navbar -->
 
@@ -109,7 +109,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </p>
             </router-link>
           </li>
-          
+
           <li class="nav-item">
 
             <a class="nav-link" href="{{ route('logout') }}"
@@ -142,13 +142,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="content">
       <div class="container-fluid">
         <div class="row">
-            <router-view>
-              {{-- All Vue components will be loaded here --}}
-            </router-view>
+            {{-- All Vue components will be loaded here --}}
+            <router-view></router-view>
+
+            <vue-progress-bar></vue-progress-bar>
         </div> <!-- /.row -->
       </div> <!-- /.container-fluid -->
     </div> <!-- /.content -->
-    
+
   </div> <!-- /.content-wrapper -->
 
   <!-- Main Footer -->
